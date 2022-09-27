@@ -7,7 +7,7 @@ configparser
 cycler
 Flask
 Flask-Cors
-Flask-MonitoringDashboard=
+Flask-MonitoringDashboard
 gunicorn
 imbalanced-learn
 imblearn
