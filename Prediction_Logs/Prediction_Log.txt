@@ -278,3 +278,31 @@
 2022-09-23/19:29:53		Entered the load_model method of the File_Operation class
 2022-09-23/19:29:53		Model File XGBoost2 loaded. Exited the load_model method of the Model_Finder class
 2022-09-23/19:29:53		End of Prediction
+2022-09-28/12:17:06		Start of Validation on files for prediction!!
+2022-09-28/12:17:06		Raw Data Validation Complete!!
+2022-09-28/12:17:06		Starting Data Transforamtion!!
+2022-09-28/12:17:06		DataTransformation Completed!!!
+2022-09-28/12:17:06		Creating Prediction_Database and tables on the basis of given schema!!!
+2022-09-28/12:17:06		Table creation Completed!!
+2022-09-28/12:17:06		Insertion of Data into Table started!!!!
+2022-09-28/12:17:07		Insertion in Table completed!!!
+2022-09-28/12:17:07		Deleting Good Data Folder!!!
+2022-09-28/12:17:07		Good_Data folder deleted!!!
+2022-09-28/12:17:07		Moving bad files to Archive and deleting Bad_Data folder!!!
+2022-09-28/12:17:07		Bad files moved to archive!! Bad folder Deleted!!
+2022-09-28/12:17:07		Validation Operation completed!!
+2022-09-28/12:17:07		Extracting csv file from table
+2022-09-28/12:17:07		Start of Prediction
+2022-09-28/12:17:07		Entered the get_data method of the Data_Getter class
+2022-09-28/12:17:07		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-09-28/12:17:07		Entered the is_null_present method of the Preprocessor class
+2022-09-28/12:17:07		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-09-28/12:17:07		Entered the scale_numerical_columns method of the Preprocessor class
+2022-09-28/12:17:07		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-09-28/12:17:07		Entered the load_model method of the File_Operation class
+2022-09-28/12:17:07		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-09-28/12:17:07		Entered the find_correct_model_file method of the File_Operation class
+2022-09-28/12:17:07		Exited the find_correct_model_file method of the Model_Finder class.
+2022-09-28/12:17:07		Entered the load_model method of the File_Operation class
+2022-09-28/12:17:07		Model File XGBoost2 loaded. Exited the load_model method of the Model_Finder class
+2022-09-28/12:17:07		End of Prediction
